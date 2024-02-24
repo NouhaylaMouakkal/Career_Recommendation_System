@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../CSS/Style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="poo.rs.signupController">
+   <children>
+      <VBox layoutX="380.0" layoutY="3.0" prefHeight="400.0" prefWidth="200.0" styleClass="logo_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon.png" />
+               </image>
+            </ImageView>
+            <Text fill="#fff878" strokeType="OUTSIDE" strokeWidth="0.0" text="N7Career" textAlignment="CENTER" wrappingWidth="109.875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="29.0" layoutY="59.0" prefHeight="313.0" prefWidth="353.0" spacing="10.0" styleClass="login_form_container">
+         <children>
+            <Label text="Username :" />
+            <TextField fx:id="nname" styleClass="input_field" />
+            <Label text="Password :" />
+            <PasswordField fx:id="npwd" styleClass="input_field" />
+            <Label text="Confirm password :" />
+            <PasswordField fx:id="ncpwd" styleClass="input_field" />
+            <!-- ... (No changes were made) ... -->
+            <Button fx:id="btnSignup" mnemonicParsing="false" text="Sign Up" onAction="#signup" />
+            <Hyperlink prefHeight="26.0" prefWidth="184.0" text="Already have an Account ?" textAlignment="JUSTIFY" onAction="#switchToLogin" />
+
+
+         </children>
+      </VBox>
+      <ImageView fitHeight="61.0" fitWidth="110.0" layoutX="290.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@enset.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
