@@ -19,12 +19,8 @@ Welcome to the N7Career project repository! This initiative aims to empower indi
 
 #### Frontend
 
-- **Java, JavaFX , SQL ** 
-
-#### Backend
-
-- **Python , Pandas ,Scikit-learn , Flask**
-- 
+- Java, JavaFX , SQL ,Python , Pandas ,Scikit-learn , Flask
+  
 ## Getting Started
 
 1. Clone the repository.
@@ -33,32 +29,7 @@ Welcome to the N7Career project repository! This initiative aims to empower indi
 4. Connect Frontend and Backend: Ensure seamless communication between the two using the REST API.
 5. Explore the platform and personalize your career recommendations!
 
-## Interface Overview
-
-### Sign Up
-
-The minimalist Sign-Up interface simplifies registration, focusing on essential fields like "Username," "Password," and "Confirm Password." JavaFX ensures an intuitive experience with built-in validation.
-
-### Login
-
-The Login interface offers a quick and secure experience with only "Username" and "Password" fields. After successful login, seamlessly transition to the form interface.
-
-### Form
-
-Capture crucial user information concisely with fields like "Level," "Hard Skills," and "Soft Skills." This information enhances the personalization of future recommendations.
-
-### Recommended Jobs
-
-Visualize personalized career opportunities with ten carefully selected positions. This interface provides a comprehensive view of potential career paths.
-
-## Conclusion
-
+## Overview 
 The N7Career project represents a significant stride in creating interactive tools for career exploration. We appreciate the collaboration and look forward to refining the platform based on user feedback.
 
 Feel free to explore, contribute, and tailor the platform to your needs. We value your engagement in making N7Career a valuable resource for career seekers.
-
----
-
-**Crafted by the N7 Team - ENSET Mohammedia, 2024.**
-
-Connect with us on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/). For inquiries, email us at your.email@example.com.
