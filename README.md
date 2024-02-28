@@ -29,6 +29,9 @@ Welcome to the N7Career project repository! This initiative aims to empower indi
 4. Connect Frontend and Backend: Ensure seamless communication between the two using the REST API.
 5. Explore the platform and personalize your career recommendations!
 
+## Report
+For a detailed overview of the project, you can access the full report [here](Rapport projet java.pdf).
+
 ## Overview 
 The N7Career project represents a significant stride in creating interactive tools for career exploration. We appreciate the collaboration and look forward to refining the platform based on user feedback.
 
